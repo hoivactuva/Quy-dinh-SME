@@ -1,0 +1,49 @@
+Quy định về cập nhật data khách hàng trên CRM của khối SME
+
+Ngày hiệu lực: 07/07/2023  
+Bản sửa đổi: 1/1 
+Bộ phận chịu trách nhiệm thi hành:
+Trung tâm SME1, SME2, SME3, SME4 thuộc khối SME
+Đinh Ngọc Cao Hoàng Anh, Nguyen Thuy Huynh Nhu Chịu trách nhiệm theo dõi, đảm bảo thực hiện quy định.
+
+
+
+Điều 1: Quy định cập nhật data & tạo Pipeline
+
+I. AM thực hiện staging data chính xác ngay khi gọi và qualify nhu cầu khách hàng cụ thể:
+
+- Tất cả data khi cập nhật về các trạng thái Opp, Lost, Won, Rời mạng cần cập nhật chính xác lại thông tin cơ bản KH bao gồm:
+1. Tên Khách hàng (đầu mối) rõ ràng
+2. Email, SĐT chính xác
+3. Tên Công ty, Ngành nghề
+4. Sản phẩm quan tâm
+- Các data ở trạng thái Lost, Datapool, Rời mạng, Blacklist cần điền chính xác "Lý do không xác nhận/ Lost"
+
+II. Tất cả pipeline khi tạo cần có đầu mối rõ ràng, giá trị deal, sản phẩm, thời gian chốt dự kiến rõ ràng dưới 3 tháng. Setup mặc định các trường trên hệ thống theo stage để đảm bảo không thiếu giá trị.
+Các giám đốc trung tâm chịu trách nhiệm trực tiếp về tất cả các pipeline được nhập lên hệ thống.
+
+
+
+Điều 2: Quy định rotate lại data trên hệ thống CRM
+
+I. Đối với các data không từ nguồn Digital:
+
+- Data thuộc trạng thái Lost của nguồn Direct sales sẽ rotate sau 2 tháng không có cập nhật gì từ AM
+- Data thuộc trạng thái Lost của nguồn Farming và các nguồn khác trừ Digital sẽ rotate sau 1 tháng không có cập nhật gì từ AM.
+- Data thuộc trạng thái Datapool của các nguồn trừ Digital sẽ rotate sau 2 tuần không có cập nhật gì từ AM.
+- Các data của nguồn KH nền sẽ không bị rotate.
+
+
+II. Đối với các data từ nguồn Digital:
+- Giữ nguyên nguồn KH là Digital, nhưng vẫn rotate lại sales owner theo thời gian không tương tác (1 tuần với Datapool và 2 tuần với Data Lost) hoặc có sự yêu cầu của Giám đốc Digital
+
+
+
+Điều 3: Trường hợp ghi nhận vi phạm và quy chế phạt
+
+I. Sau khi Qualify thông tin khách hàng (Update trạng thái contact thành Opp, Won, Lost, Rời mạng), AM nào không cập nhật lại email chính xác của khách hàng trên Contact sẽ bị xử phạt tính trên trường hợp sai. Mỗi trường hợp phạt 10.000đ/lần
+
+II. Call data ảo, cuộc gọi không đến số KH hoặc không chủ động khai thác nhu cầu, thông tin KH trong cuộc gọi sẽ xử phạt như sau:
+1. Vi phạm lần 1: Hạ 1 bậc đánh giá kết quả tháng.
+2. Vi phạm lần 2: Hạ 2 bậc đánh giá kết quả tháng.
+3. Vi phạm lần 3: Yêu cầu thôi việc.
